@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Libraries used
 
-Material UI as a component library
-Recoil for state management
-Axios for HTTP requests
+Material UI as a component library\
+Recoil for state management\
+Axios for HTTP requests\
 
 ## Available Scripts
 
