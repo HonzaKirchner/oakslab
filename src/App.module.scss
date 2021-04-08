@@ -1,0 +1,26 @@
+$main_width: 500px;
+
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+  main{
+    min-width: 500px;
+    margin: 2rem 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    background: white;
+    box-shadow: 0 0 2rem -0.33rem rgb(173, 173, 173);
+    z-index: 2;
+  } 
+}
+
+@media (max-width: 500px){
+  main{
+    width: 100%;
+    min-width: unset !important;
+    padding: 0.75rem 1.5rem !important;
+  }
+}
